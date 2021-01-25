@@ -1,6 +1,7 @@
 import React from "react";
 import { Form, FormControl, InputGroup } from "react-bootstrap";
 import "./App.scss";
+import Cheatsheet from "./Component/Cheatsheet";
 
 enum Unit {
     T = "T",
@@ -157,9 +158,8 @@ function App() {
                         />
                     ))}
                 </InputGroup>
-                <pre>
-                    cheatsheet:
-                </pre>
+
+                <Cheatsheet />
             </div>
         </div>
     );
