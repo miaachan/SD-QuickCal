@@ -38,7 +38,7 @@ const TimeUnitLookup: {
 
 function parseInputToNum(input: string): number {
     const onlyDigits = /^\d+.?\d*$/.test(input);
-    const withUnit = /^\d+.?\d*(T|B|M|K)$/.test(input);
+    const withUnit = /^\d+.?\d*(T|B|M|K)$/i.test(input);
     if (!onlyDigits && !withUnit) return 0;
 
     if (withUnit) {
