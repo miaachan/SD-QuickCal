@@ -10,3 +10,4 @@ PRs are welcome...
 
 1. Support storage conversion
 2. Give recommendations on the number of servers required.
+3. Write unit test to ensure the functionality of the conversion.
