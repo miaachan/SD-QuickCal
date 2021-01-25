@@ -1,9 +1,20 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 
+function LinkRenderer(props: {
+    href: string | undefined;
+    children: React.ReactNode;
+}) {
+    return (
+        <a href={props.href} target="_blank">
+            {props.children}
+        </a>
+    );
+}
+
 function Cheatsheet() {
     return (
-        <ReactMarkdown>
+        <ReactMarkdown renderers={{ link: LinkRenderer }}>
             {`
 ### [Handy conversion guide](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/README.md#calculate-usage)
 
