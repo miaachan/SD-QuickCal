@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SD-QuickCal/static/css/main.05cf3e2a.chunk.css",
+    "main.js": "/SD-QuickCal/static/js/main.ca837496.chunk.js",
+    "main.js.map": "/SD-QuickCal/static/js/main.ca837496.chunk.js.map",
+    "runtime-main.js": "/SD-QuickCal/static/js/runtime-main.70b55713.js",
+    "runtime-main.js.map": "/SD-QuickCal/static/js/runtime-main.70b55713.js.map",
+    "static/js/2.13a9d6a1.chunk.js": "/SD-QuickCal/static/js/2.13a9d6a1.chunk.js",
+    "static/js/2.13a9d6a1.chunk.js.map": "/SD-QuickCal/static/js/2.13a9d6a1.chunk.js.map",
+    "static/js/3.cdff6d36.chunk.js": "/SD-QuickCal/static/js/3.cdff6d36.chunk.js",
+    "static/js/3.cdff6d36.chunk.js.map": "/SD-QuickCal/static/js/3.cdff6d36.chunk.js.map",
+    "index.html": "/SD-QuickCal/index.html",
+    "static/css/main.05cf3e2a.chunk.css.map": "/SD-QuickCal/static/css/main.05cf3e2a.chunk.css.map",
+    "static/js/2.13a9d6a1.chunk.js.LICENSE.txt": "/SD-QuickCal/static/js/2.13a9d6a1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70b55713.js",
+    "static/js/2.13a9d6a1.chunk.js",
+    "static/css/main.05cf3e2a.chunk.css",
+    "static/js/main.ca837496.chunk.js"
+  ]
+}
